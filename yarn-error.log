@@ -1,0 +1,97 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\mysql\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\Sublime Text 3;C:\Program Files\Java\jdk1.7.0_79\bin\;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files\TortoiseSVN\bin;D:\svn1.8.3\bin;C:\Python27;C:\GOPATH\bin;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\;C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32;F:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  7.10.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "yang-test",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "^4.1.2",
+      "@angular/common": "^4.1.2",
+      "@angular/compiler": "^4.1.2",
+      "@angular/compiler-cli": "^4.1.2",
+      "@angular/core": "^4.1.2",
+      "@angular/forms": "^4.1.2",
+      "@angular/http": "^4.1.2",
+      "@angular/platform-browser": "^4.1.2",
+      "@angular/platform-browser-dynamic": "^4.1.2",
+      "@angular/platform-server": "^4.1.2",
+      "@angular/router": "^4.1.2",
+      "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.22",
+      "admin-lte": "^2.3.11",
+      "bootstrap": "^3.3.7",
+      "core-js": "^2.4.1",
+      "d3": "^4.10.0",
+      "jquery": "^3.2.1",
+      "ngx-bootstrap": "^1.7.1",
+      "rxjs": "^5.1.0",
+      "typescript": "^2.3.4",
+      "webpack": "^3.0.0",
+      "wijmo": "http://prerelease.componentone.com/wijmo5/npm-images/C1Wijmo-Enterprise-Eval-AMD-5.20171.293.tgz",
+      "zone.js": "^0.8.12"
+    },
+    "devDependencies": {
+      "@angular/cli": "^1.1.3",
+      "@angular/compiler-cli": "^2.4.0",
+      "@types/jasmine": "2.5.38",
+      "@types/node": "~6.0.60",
+      "codelyzer": "~2.0.0",
+      "jasmine-core": "~2.5.2",
+      "jasmine-spec-reporter": "~3.2.0",
+      "karma": "~1.4.1",
+      "karma-chrome-launcher": "~2.0.0",
+      "karma-cli": "~1.0.1",
+      "karma-coverage-istanbul-reporter": "^0.2.0",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.1.0",
+      "rollup": "^0.41.6",
+      "rollup-plugin-commonjs": "^8.0.2",
+      "rollup-plugin-node-resolve": "^3.0.0",
+      "rollup-plugin-uglify": "^1.0.1",
+      "ts-node": "~2.0.0",
+      "tslint": "~4.4.2",
+      "typescript": "~2.3.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://prerelease.componentone.com/wijmo5/npm-images/C1Wijmo-Enterprise-Eval-AMD-5.20171.293.tgz: Request failed "406 Not Acceptable"
+      at Request.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\fetchers\tarball-fetcher.js:203:20)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:191:7)
+      at Request.onRequestResponse (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\node_modules\request\request.js:1074:10)
+      at emitOne (events.js:96:13)
+      at ClientRequest.emit (events.js:191:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:522:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+      at Socket.socketOnData (_http_client.js:411:20)
+      at emitOne (events.js:96:13)
